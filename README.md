@@ -87,7 +87,7 @@ Deployed Application (optional): [Globetrotter Deployed Site](ADD_LINK_HERE)
 
 `TODO://` Paste the **shareable link** to your animated app walkthrough below (replace `ADD_LOOM_LINK_HERE`). GitHub markdown won't render an embedded Loom player, so a plain link is what graders will use. Make sure the link is public and playable before submitting. (🚫 Remove this paragraph after adding your walkthrough link.)
 
-**Walkthrough video:** [Globetrotter Walkthrough](ADD_LOOM_LINK_HERE)
+**Walkthrough video:** https://www.loom.com/share/1ebbb0d154d54b24bd42d1fd59256356?t=8
 
 ### Reflection
 
