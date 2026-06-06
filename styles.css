@@ -1,1 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Inter:wght@400;500;600&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Inter", Arial, sans-serif;
+    background-color: #f7f3ee;
+    color: #3a2f2a;
+    line-height: 1.6;
+  }
+  
+  header h1,
+  header p,
+  main,
+  footer p {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  
+  header section {
+    position: relative;
+  }
+
+  header section img {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  header section h1,
+  header section p {
+    position: absolute;
+    left: 32px;
+    color: #ffffff;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.45);
+    width: auto;
+    max-width: 70%;
+    margin: 0;
+  }
+
+  header section h1 {
+    bottom: 86px;
+    font-size: 3rem;
+    line-height: 1.1;
+  }
+
+  header section p {
+    bottom: 42px;
+    font-size: 1.15rem;
+    line-height: 1.4;
+  }
+  
+  h1,
+  h2 {
+    font-family: "Cinzel", Georgia, serif;
+    color: #8e3b2e;
+    margin-bottom: 0px;
+    letter-spacing: 0.02em;
+  }
+  
+  p {
+    margin-bottom: 14px;
+  }
+  
+  nav {
+    margin: 0px 0 26px 0;
+    border-top: 0.5px solid #c65d3a;
+    border-bottom: 0.5px solid #c65d3a;
+    background-color: #ffffff;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    border-right: 0.5px solid #e7d6ca;
+  }
+  
+  nav li:last-child {
+    border-right: none;
+  }
+  
+  nav a {
+    display: block;
+    padding: 4px 98px 4px 98px;
+    text-decoration: none;
+    color: #3a2f2a;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+  
+  nav a:hover {
+    background-color: #c65d3a;
+    color: #ffffff;
+  }
+  
+  main section {
+    margin-bottom: 34px;
+  }
+  
+  main {
+    padding-bottom: 20px;
+  }
+  
+  footer {
+    border-top: 1px solid #d8c6ba;
+    padding: 18px 0 28px 0;
+    font-size: 0.95rem;
+    color: #6a5750;
+  }
+
+  .media-section iframe {
+    width: 100%;
+    height: 430px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 8px 24px rgba(58, 47, 42, 0.16);
+  }
+
+
+  .newsletter {
+    background: #fff9f4;
+    border: 0.5px solid #e6d4c8;
+    padding: 16px;
+    border-radius: 8px;
+  }
+
+  .newsletter form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 500px;
+  }
+
+  .newsletter input {
+    padding: 10px 12px;
+    border: 0.5px solid #d8c6ba;
+    font-family: "Inter", Arial, sans-serif;
+    font-size: 1rem;
+  }
+
+  .newsletter button {
+    margin-top: 6px;
+    padding: 10px 14px;
+    border: 0.5px solid #8e3b2e;
+    background: #8e3b2e;
+    color: #ffffff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+
+  .newsletter button:hover {
+    background: #c65d3a;
+  }
+
+.cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background-color: #ffffff;
+    border: 0.5px solid #e6d4c8;
+    width: 320px;
+    padding: 12px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 18px rgba(58, 47, 42, 0.12);
+  }
+  
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .attractions .card {
+    border-radius: 0;
+  }
+  
+  .guide .card {
+    border-radius: 10px;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    justify-content: left;
+    align-items: left;
+  }
+  
+  .gallery figure {
+    width: 240px;
+    background: #ffffff;
+    border: 0.5px solid #e6d4c8;
+    padding: 8px;
+  }
+  
+  .gallery img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    display: block;
+  }
+  
+  .gallery figcaption {
+    margin-top: 8px;
+    font-size: 0.95rem;
+    color: #5b4a44;
+  }
+
+header section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .card {
+    flex: 0 1 320px; 
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 18px;
+  }
+  
+  .gallery figure {
+    flex: 0 1 240px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card img,
+  .gallery img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+
+@media (max-width: 767px) {
+    header,
+    main,
+    footer {
+      width: 94%;
+    }
+  
+    header section img {
+      height: 300px;
+    }
+
+    header section h1,
+    header section p {
+      left: 16px;
+      max-width: 90%;
+    }
+
+    header section h1 {
+      bottom: 98px;
+      font-size: 1.8rem;
+    }
+
+    header section p {
+      bottom: 20px;
+      font-size: 0.95rem;
+    }
+  
+    h1 {
+      font-size: 1.7rem;
+    }
+  
+    h2 {
+      font-size: 1.2rem;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  
+    nav li {
+      border-right: none;
+      border-bottom: 0.5px solid #e7d6ca;
+    }
+  
+    nav li:last-child {
+      border-bottom: none;
+    }
+  
+    nav a {
+      padding: 10px 14px;
+      text-align: center;
+    }
+  
+    .card {
+      flex: 1 1 100%;
+      max-width: 100%;
+    }
+  
+    .gallery figure {
+      flex: 1 1 100%;
+      max-width: 100%;
+    }
+  
+    .card img {
+      height: 200px;
+    }
+  
+    .gallery img {
+      height: 200px;
+    }
+
+    .media-section iframe {
+      height: 240px;
+    }
+
+  }
+  
+  @media (min-width: 768px) and (max-width: 1023px) {
+    header,
+    main,
+    footer {
+      width: 92%;
+    }
+  
+    nav a {
+      padding: 10px 26px;
+    }
+  
+    .card {
+      flex: 1 1 calc(50% - 20px);
+      max-width: calc(50% - 20px);
+    }
+  
+    .gallery figure {
+      flex: 1 1 calc(50% - 18px);
+      max-width: calc(50% - 18px);
+    }
+  
+    .card img {
+      height: 190px;
+    }
+  
+    .gallery img {
+      height: 180px;
+    }
+
+    .media-section iframe {
+      height: 320px;
+    }
+
+  }
+  
+  @media (min-width: 1024px) {
+    .card {
+      flex: 0 1 320px;
+      max-width: 320px;
+    }
+  
+    .gallery figure {
+      flex: 0 1 240px;
+      max-width: 240px;
+    }
+  }
